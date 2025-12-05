@@ -64,7 +64,7 @@ body {
   width: 58px;
   height: 58px;
   border-radius: 16px;
-  background: url('brand-visual.jpg') center/cover no-repeat;
+  background: url('./brand-visual.jpg') center/cover no-repeat;
   border: 0;
   display: grid;
   place-items: center;
@@ -250,7 +250,7 @@ button {
   width: 80px;
   height: 80px;
   flex-shrink: 0;
-  background: url('molly.jpg') center/contain no-repeat;
+  background: url('./molly.jpg') center/contain no-repeat;
   filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.12));
   border-radius: 10px;
 }
