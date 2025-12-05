@@ -230,6 +230,8 @@ button {
   line-height: 1.15;
   margin: 12px 0 14px;
   letter-spacing: -0.5px;
+  white-space: pre-line;
+  word-break: keep-all;
 }
 
 .hero-copy h1 span {
@@ -671,7 +673,9 @@ button {
   }
 
   .hero-copy h1 {
-    font-size: 34px;
+    font-size: 30px;
+    white-space: pre-line;
+    word-break: keep-all;
   }
 
   .hero-stats {
