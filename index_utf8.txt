@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>??? | ???? ??? ???? ???</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="logo">
+        <div class="logo-mark">
+          <span class="letter" aria-hidden="true"></span>
+        </div>
+        <div class="logo-text">
+          <span class="bank">by</span>
+          <span class="mart">???</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#markets">?꾪넻?쒖옣</a>
+        <a href="#benefits">?쒗깮</a>
+        <a href="#routes">異붿쿇肄붿뒪</a>
+        <a href="#trust">?덉떖諛곗넚</a>
+      </nav>
+      <div class="actions">
+        <button class="ghost">濡쒓렇??/button>
+        <button class="solid">諛붾줈 ?λ낫湲?/button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="badge">?좏븳????↔꺼?????꾪넻?쒖옣 ?쒕━踰꾨━</p>
+          <div class="hero-title">
+            <h1>?꾪넻?쒖옣???좎꽑?⑥쓣<br>?↔꺼?붿? ?④퍡, <span>?〓쭏??/span></h1>
+          </div>
+          <p class="lede">?쒖슱 怨녠납???꾪넻?쒖옣???ㅻ뒛 諛붾줈 ?λ낫湲? ?좎꽑???щ즺? ?쒖옣留뚯쓽 ?④린瑜?諛곗넚?댁슂.</p>
+          <div class="hero-actions">
+            <button class="solid large">?쒖옣 ?섎윭蹂닿린</button>
+            <button class="solid large">?ㅻ뒛???밴?</button>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <p class="label">?쒗쑕 ?쒖옣</p>
+              <p class="value">5怨?/p>
+            </div>
+            <div>
+              <p class="label">?됯퇏 諛곗넚</p>
+              <p class="value">1?쒓컙 ?대궡</p>
+            </div>
+            <div>
+              <p class="label">寃???곹뭹</p>
+              <p class="value">1留?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="markets" id="markets">
+        <div class="section-head">
+          <h2>吏湲?諛붾줈 ?λ낵 ???덈뒗 ?쒖옣</h2>
+          <p class="sub">?숇꽕蹂??멸린 ?쒖옣???쒕늿??蹂닿퀬, 留욎땄 諛곗넚 ?쒓컙??諛붾줈 ?뺤씤?섏꽭??</p>
+        </div>
+        <div class="market-grid">
+          <article class="market-card">
+            <div class="meta">
+              <p class="name">?곴퀎以묒븰?쒖옣</p>
+              <p class="desc">?몄썝 二쇰????щ옉?섎뒗 諛μ긽 ?щ즺 珥앹쭛??</p>
+            </div>
+            <div class="info">
+              <span>23媛??먰룷</span>
+              <span>?됯퇏 諛곗넚 90遺?/span>
+            </div>
+          </article>
+          <article class="market-card">
+            <div class="meta">
+              <p class="name">?덈쭏?꾩떆??/p>
+              <p class="desc">?묒?留??뚯갔 ?숇꽕 留쏆쭛 ?щ즺瑜??쒕쾲??</p>
+            </div>
+            <div class="info">
+              <span>15媛??먰룷</span>
+              <span>1留뚯썝 ?댁긽 臾대즺諛곗넚</span>
+            </div>
+          </article>
+          <article class="market-card">
+            <div class="meta">
+              <p class="name">怨듬쫱?숇룄源⑤퉬?쒖옣</p>
+              <p class="desc">諛???쾶源뚯? ?쒓린李?怨듬쫱??????쒖옣.</p>
+            </div>
+            <div class="info">
+              <span>28媛??먰룷</span>
+              <span>?쇨컙 諛곗넚 媛??/span>
+            </div>
+          </article>
+          <article class="market-card">
+            <div class="meta">
+              <p class="name">?앹큿?쒖옣</p>
+              <p class="desc">?≫뙆 二쇰??ㅼ씠 李얜뒗 ?앺솢 諛李⑺삎 ?쒖옣.</p>
+            </div>
+            <div class="info">
+              <span>19媛??먰룷</span>
+              <span>?꾨━誘몄뾼 怨쇱씪</span>
+            </div>
+          </article>
+          <article class="market-card">
+            <div class="meta">
+              <p class="name">?붿궗?쒖옣</p>
+              <p class="desc">?쒓컯蹂 ?좎꽑 ?섏궛臾쇱쓣 諛붾줈 吏??욊퉴吏.</p>
+            </div>
+            <div class="info">
+              <span>17媛??먰룷</span>
+              <span>?섏궛 ?뱀씪 ?먯쭏</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="routes" id="routes">
+        <div class="section-head">
+          <h2>?쒖옣蹂?李곕뼞 ?λ낫湲?肄붿뒪</h2>
+        </div>
+        <div class="route-grid">
+          <div class="route">
+            <p class="title">?곴퀎以묒븰?쒖옣</p>
+            <p class="body">?꾧묠鍮?遺꾩떇 ???뺤쑁 紐낃? ???쇱콈 ?뚮칷由ъ뿉. 二쇰쭚 媛議?諛μ긽 以鍮?肄붿뒪.</p>
+          </div>
+          <div class="route">
+            <p class="title">怨듬쫱?숇룄源⑤퉬?쒖옣</p>
+            <p class="body">?덈꼍 ?댄뙋??吏곸넚 ?섏궛 ????텋 ??컯????諛ㅻ????붿???</p>
+          </div>
+          <div class="route">
+            <p class="title">?앹큿?쒖옣</p>
+            <p class="body">?꾨━誘몄뾼 怨쇱씪 ?곹쉶 ??濡쒖뺄 移섏쫰????源붾걫 諛섏갔媛寃?</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust" id="trust">
+        <div class="section-head">
+          <h2>?〓쭏??梨낆엫諛곗넚??/h2>
+        </div>
+        <div class="trust-grid">
+          <div class="trust-card">
+            <p class="title">?좎꽑??蹂댁옣</p>
+            <p class="body">?쒖옣 異쒕컻 吏곹썑遺???ㅼ떆媛??⑤룄 紐⑤땲?곕쭅?쇰줈 ?됱옣/?됰룞 援ш컙???덉쟾?섍쾶 ?좎?.</p>
+          </div>
+          <div class="trust-card">
+            <p class="title">寃곗젣 ?덉떖</p>
+            <p class="body">?좏븳 SOL ?섏씠???댁쨷 ?몄쬆怨?寃곗젣 ?뚮┝?쇰줈 泥섏쓬 ?댁슜??嫄깆젙 ?놁씠.</p>
+          </div>
+          <div class="trust-card">
+            <p class="title">?쇱씠??耳??/p>
+            <p class="body">援먯쑁 諛쏆? ?꾨떞 ?쇱씠?붽? 吏곸젒 ?쎌뾽 쨌 寃????諛곗넚, ?뚯넀 ??100% 蹂댁긽.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+      <section class="benefits" id="benefits">
+        <div class="benefit-card">
+          <div class="content">
+            <h3>?좏븳???怨좉컼?대씪硫???鍮좊Ⅴ寃? ???뚮쑑?섍쾶</h3>
+          <ul>
+            <li>?좏븳 SOL ?섏씠濡?寃곗젣 ??利됱떆 5% ?곷┰</li>
+            <li>吏??궗?묒긽?덇텒 ?ъ슜??理쒕? 15% ?좎씤</li>
+            <li>?곸깮?섏씠諛??⑤늻由??곹뭹沅??ъ슜媛??/li>
+          </ul>
+          <div class="cta-row">
+            <button class="solid">?쒗깮 ?곸슜?섍퀬 二쇰Ц</button>
+            <button class="ghost">荑좏룿??蹂닿린</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="legal-footer">
+      <div class="legal-top">
+        <div class="legal-links">
+          <a href="#">?댁슜?쎄?</a>
+          <a href="#">?↔꺼?뷀럹?댁빟愿</a>
+          <a href="#">?↔꺼???꾩튂湲곕컲 ?쒕퉬???댁슜?쎄?</a>
+          <a href="#">?꾩옄湲덉쑖嫄곕옒?쎄?</a>
+          <a href="#" class="strong">媛쒖씤?뺣낫泥섎━諛⑹묠</a>
+          <a href="#">?좎슜?뺣낫?쒖슜泥댁젣</a>
+        </div>
+      </div>
+      <div class="legal-info">
+        <button class="legal-toggle" type="button">?↔꺼???ъ뾽?먯젙蹂???/button>
+        <div class="legal-details">
+          <p>?쒖떊?쒖???????쒖옄紐? ?뺤긽?????쒖슱?밸퀎??以묎뎄 ?몄쥌?濡?湲?20(?쒗룊濡?媛)</p>
+          <p>?ъ뾽?먮쾲?? 202-81-02637 ???듭떊?먮ℓ?좉퀬踰덊샇: 以묎뎄 00345</p>
+          <p>怨좉컼?쇳꽣: 1661-5489(?됱씪/二쇰쭚 ?ㅼ쟾 9?? 諛?12??</p>
+          <p>?쒗쑕臾몄쓽: partner_ddangyo@shinhan.com ???대찓?쇰Ц?? help_ddangyo@shinhan.com</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    const toggle = document.querySelector('.legal-toggle');
+    const details = document.querySelector('.legal-details');
+    if (toggle && details) {
+      toggle.addEventListener('click', () => {
+        const open = details.classList.toggle('open');
+        toggle.textContent = open ? '?↔꺼???ъ뾽?먯젙蹂??? : '?↔꺼???ъ뾽?먯젙蹂???;
+      });
+    }
+  </script>
+</body>
+</html>
+
