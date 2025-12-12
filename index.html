@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>땡마트 | 신한은행 땡겨요 전통시장 장보기</title>
+  <title>담 : 다 by 땡겨요 | 전통시장 핫한 먹거리 픽업·배달 플랫폼</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
@@ -14,37 +14,35 @@
     <header class="topbar">
       <div class="logo">
         <div class="logo-mark">
-          <span class="letter" aria-hidden="true"></span>
+          <span class="letter" aria-hidden="true">담:다</span>
         </div>
         <div class="logo-text">
           <span class="bank">by</span>
-          <span class="mart">땡마트</span>
+          <span class="mart">땡겨요</span>
         </div>
       </div>
       <nav class="nav">
-        <a href="#markets">전통시장</a>
+        <a href="#markets">시장 리스트</a>
+        <a href="#routes">픽업·배달</a>
         <a href="#benefits">혜택</a>
-        <a href="#routes">추천코스</a>
-        <a href="#trust">안심배송</a>
       </nav>
       <div class="actions">
         <button class="ghost">로그인</button>
-        <button class="solid">바로 장보기</button>
+        <button class="solid">주문하러 가기</button>
       </div>
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero" id="hero">
         <div class="hero-copy">
-          <p class="badge">신한은행 땡겨요 • 전통시장 딜리버리</p>
+          <p class="badge">담 : 다 by 땡겨요 · 전통시장 푸드픽 플랫폼</p>
           <div class="hero-title">
-            <h1>전통시장의 신선함을<br>땡겨요와 함께, <span>땡마트</span></h1>
-            <div class="hero-inline-molly" aria-hidden="true"></div>
+            <h1>전통시장 핫한 먹거리,<br>담아서 다 챙겨요 <span>담 : 다</span></h1>
           </div>
-          <p class="lede">서울 곳곳의 전통시장을 오늘 바로 장보기. 신선한 재료와 시장만의 온기를 배송해요.</p>
+          <p class="lede">붕어빵·꽈배기·어묵·즉석 튀김부터 가공·조리식까지. 가까운 픽업존에서 바로 찾거나 라이더가 배달해주는 전통시장 푸드 스포트입니다.</p>
           <div class="hero-actions">
-            <button class="solid large">시장 둘러보기</button>
-            <button class="solid large">오늘의 특가</button>
+            <button class="solid large"><span class="btn-icon" aria-hidden="true">🛒</span>가까운 픽업존 찾기</button>
+            <button class="ghost large"><span class="btn-icon" aria-hidden="true">🛵</span>배달로 주문하기</button>
           </div>
           <div class="hero-stats">
             <div>
@@ -52,12 +50,12 @@
               <p class="value">5곳</p>
             </div>
             <div>
-              <p class="label">평균 배송</p>
-              <p class="value">1시간 이내</p>
+              <p class="label">평균 준비 시간</p>
+              <p class="value">15분 내외</p>
             </div>
             <div>
-              <p class="label">검수 상품</p>
-              <p class="value">2천+</p>
+              <p class="label">재주문 고객</p>
+              <p class="value">78%</p>
             </div>
           </div>
         </div>
@@ -65,116 +63,130 @@
 
       <section class="markets" id="markets">
         <div class="section-head">
-          <h2>지금 바로 장볼 수 있는 시장</h2>
-          <p class="sub">동네별 인기 시장을 한눈에 보고, 맞춤 배송 시간도 바로 확인하세요.</p>
+          <h2>지금 담:다로 가장 많이 주문되는 시장</h2>
+          <p class="sub">상계, 새마을, 공릉, 석촌, 암사 시장의 시그니처를 픽업·배달로 빠르게 즐겨보세요.</p>
         </div>
         <div class="market-grid">
           <article class="market-card">
             <div class="meta">
+              <div class="market-thumb" role="presentation">
+                <img src="상계중앙시장.jpg" alt="상계중앙시장 전경">
+              </div>
               <p class="name">상계중앙시장</p>
-              <p class="desc">노원구 대표 재래시장, 신선 채소·정육·반찬가게가 밀집.</p>
+              <p class="desc">막 튀긴 꽈배기와 즉석 국물떡볶이, 달콤 호떡이 시그니처.</p>
             </div>
             <div class="info">
-              <span>69개 점포</span>
-              <span>평균 배송 40분</span>
+              <span>23개 점포</span>
+              <span>픽업 대기 12분</span>
             </div>
           </article>
           <article class="market-card">
             <div class="meta">
+              <div class="market-thumb" role="presentation">
+                <img src="새마을시장.jpg" alt="새마을 전통시장 전경">
+              </div>
               <p class="name">새마을 전통시장</p>
-              <p class="desc">청과·정육·수산에 먹거리 골목까지 갖춘 중소형 근린시장.</p>
+              <p class="desc">계란빵과 어묵바, 시장표 김밥이 세트로 가장 많이 팔려요.</p>
             </div>
             <div class="info">
-              <span>76개 점포</span>
-              <span>1만원 이상 무료배송</span>
+              <span>15개 점포</span>
+              <span>1만원 이상 무료배달</span>
             </div>
           </article>
           <article class="market-card">
             <div class="meta">
+              <div class="market-thumb" role="presentation">
+                <img src="공릉도깨비시장.jpg" alt="공릉도깨비시장 전경">
+              </div>
               <p class="name">공릉도깨비시장</p>
-              <p class="desc">야간까지 붐비는 공릉 먹거리 거리, 분식·즉석먹거리가 강점.</p>
+              <p class="desc">회오리감자, 치즈 핫도그, 버터 오징어 꼬치로 야시장 감성 듬뿍.</p>
             </div>
             <div class="info">
-              <span>76개 점포</span>
-              <span>야간 배송 가능</span>
+              <span>28개 점포</span>
+              <span>야간 픽업 가능</span>
             </div>
           </article>
           <article class="market-card">
             <div class="meta">
+              <div class="market-thumb" role="presentation">
+                <img src="석촌시장.jpg" alt="석촌시장 전경">
+              </div>
               <p class="name">석촌시장</p>
-              <p class="desc">송파구 생활밀착형 시장, 신선식품과 반찬·분식이 인기.</p>
+              <p class="desc">수제 어묵바와 튀김 3종, 도톰한 김말이가 대표 메뉴.</p>
             </div>
             <div class="info">
-              <span>69개 점포</span>
-              <span>프리미엄 과일</span>
+              <span>19개 점포</span>
+              <span>전 메뉴 즉시배달</span>
             </div>
           </article>
           <article class="market-card">
             <div class="meta">
+                <div class="market-thumb" role="presentation">
+                  <img src="암사종합시장.jpg" alt="암사종합시장 전경">
+                </div>
               <p class="name">암사종합시장</p>
-              <p class="desc">강동구 대표 종합시장, 수산·정육·청과와 생활잡화까지 한곳에.</p>
+              <p class="desc">붕어빵과 군만두, 달콤한 찹쌀도넛을 한 번에 픽업·배달.</p>
             </div>
             <div class="info">
-              <span>96개 점포</span>
-              <span>수산 당일 손질</span>
+              <span>17개 점포</span>
+              <span>점심 러시 최적화</span>
             </div>
           </article>
-        </div>
-      </section>
-
-      <section class="routes" id="routes">
-        <div class="section-head">
-          <h2>시장별 찰떡 장보기 코스</h2>
-        </div>
-        <div class="route-grid">
-          <div class="route">
-            <p class="title"><span class="route-icon">🥘</span>상계중앙시장</p>
-            <p class="body">상계도깨비분식 떡볶이 → 한우명가 진미상회 → 채소상인 박가네.</p>
-          </div>
-          <div class="route">
-            <p class="title"><span class="route-icon">🧆</span>공릉도깨비시장</p>
-            <p class="body">공릉 즉석 어묵바 → 공릉 닭강정 본점 → 달콤빵집 생크림빵.</p>
-          </div>
-          <div class="route">
-            <p class="title"><span class="route-icon">🍇</span>석촌시장</p>
-            <p class="body">석촌 과일명가 프리미엄 과일 → 석촌반찬 모둠반찬 → 참숯 왕돈까스.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="trust" id="trust">
-        <div class="section-head">
-          <h2>땡마트 책임배송제</h2>
-        </div>
-        <div class="trust-grid">
-          <div class="trust-card">
-            <p class="title"><span class="trust-icon">❄️</span>신선도 보장</p>
-            <p class="body">시장 출발 직후부터 실시간 온도 모니터링으로 냉장/냉동 구간을 안전하게 유지.</p>
-          </div>
-          <div class="trust-card">
-            <p class="title"><span class="trust-icon">💳</span>결제 안심</p>
-            <p class="body">신한 SOL 페이의 이중 인증과 결제 알림으로 처음 이용도 걱정 없이.</p>
-          </div>
-          <div class="trust-card">
-            <p class="title"><span class="trust-icon">🛵</span>라이더 케어</p>
-            <p class="body">교육 받은 전담 라이더가 직접 픽업 · 검수 후 배송, 파손 시 100% 보상.</p>
-          </div>
         </div>
       </section>
 
       <section class="benefits" id="benefits">
         <div class="benefit-card">
           <div class="content">
-            <h3>신한은행 고객이라면 더 빠르게, 더 알뜰하게</h3>
+            <h3>담:다에서만 누리는 주문 혜택</h3>
             <ul>
-              <li>신한 SOL 페이로 결제 시 즉시 5% 적립</li>
-              <li>지역사랑상품권 사용시 최대 15% 할인</li>
-              <li>상생페이백 온누리 상품권 사용가능</li>
+              <li>담:다 첫 주문 3천원 즉시 할인</li>
+              <li>땡겨요 Pay 결제 시 추가 5% 적립</li>
             </ul>
             <div class="cta-row">
-              <button class="solid">혜택 적용하고 주문</button>
-              <button class="ghost">쿠폰함 보기</button>
+              <button class="solid">혜택 받고 주문하기</button>
+              <button class="ghost">시장 입점 문의하기</button>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="routes" id="routes">
+        <div class="section-head">
+          <h2>담:다 픽업·배달 흐름</h2>
+        </div>
+        <div class="route-grid">
+          <div class="route">
+            <p class="title"><span class="route-icon">🍯</span>바로 찾는 픽업존</p>
+            <p class="body">동네별 픽업존을 예약하면 사장님이 포장 완료 후 바로 전달. 붕어빵 식기 전에 챙겨가세요.</p>
+          </div>
+          <div class="route">
+            <p class="title"><span class="route-icon">🛵</span>라이더 즉시 배달</p>
+            <p class="body">땡겨요 라이더가 시장에서 바로 픽업해 원하는 곳까지. 튀김 바삭함을 지키는 단거리 배달 동선.</p>
+          </div>
+          <div class="route">
+            <p class="title"><span class="route-icon">🌙</span>야시장 한정 메뉴</p>
+            <p class="body">밤에만 여는 포장마차 메뉴, 미리 담아두면 도착 타이밍에 맞춰 따끈하게 전달됩니다.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust" id="trust">
+        <div class="section-head">
+          <h2>안심하고 담고, 다 받는 배달</h2>
+        </div>
+        <div class="trust-grid">
+          <div class="trust-card">
+            <p class="title"><span class="trust-icon">🧊</span>따뜻함·바삭함 유지</p>
+            <p class="body">보온·보랭 패키징으로 메뉴별 최적 온도 유지. 튀김은 통풍 패키지, 어묵은 보온팩으로 전달합니다.</p>
+          </div>
+          <div class="trust-card">
+            <p class="title"><span class="trust-icon">💳</span>결제부터 안전하게</p>
+            <p class="body">땡겨요 Pay, 카드 간편결제 지원. 주문 취소·환불 프로세스도 앱에서 즉시 처리됩니다.</p>
+          </div>
+          <div class="trust-card">
+            <p class="title"><span class="trust-icon">🤝</span>시장 사장님 동반 성장</p>
+            <p class="body">메뉴 사진·가격 관리, 포장 가이드, 데이터 리포트까지 제공해 시장과 함께 성장합니다.</p>
           </div>
         </div>
       </section>
@@ -184,20 +196,18 @@
       <div class="legal-top">
         <div class="legal-links">
           <a href="#">이용약관</a>
-          <a href="#">땡겨요페이약관</a>
-          <a href="#">땡겨요 위치기반 서비스 이용약관</a>
           <a href="#">전자금융거래약관</a>
-          <a href="#" class="strong">개인정보처리방침</a>
-          <a href="#">신용정보활용체제</a>
+          <a href="#">위치기반 서비스 이용약관</a>
+          <a href="#">개인정보 처리방침</a>
+          <a href="#">고객센터</a>
         </div>
       </div>
       <div class="legal-info">
-        <button class="legal-toggle" type="button">땡겨요 사업자정보 ▾</button>
+        <button class="legal-toggle" type="button">사업자·운영 정보 보기</button>
         <div class="legal-details">
-          <p>㈜신한은행 │ 대표자명: 정상혁 │ 서울특별시 중구 세종대로9길 20(태평로2가)</p>
-          <p>사업자번호: 202-81-02637 │ 통신판매신고번호: 중구 00345</p>
-          <p>고객센터: 1661-5489(평일/주말 오전 9시~ 밤 12시)</p>
-          <p>제휴문의: partner_ddangyo@shinhan.com │ 이메일문의: help_ddangyo@shinhan.com</p>
+          <p>상호: 담 : 다 by 땡겨요 | 사업자등록번호: 202-81-02637</p>
+          <p>주소: 서울시 중구 소공로 20 | 고객센터: 1661-5489 (평일 9~18시)</p>
+          <p>제휴·입점 문의: partner@ttang.io | 고객 문의: help@ttang.io</p>
         </div>
       </div>
     </footer>
@@ -208,9 +218,10 @@
     if (toggle && details) {
       toggle.addEventListener('click', () => {
         const open = details.classList.toggle('open');
-        toggle.textContent = open ? '땡겨요 사업자정보 ▴' : '땡겨요 사업자정보 ▾';
+        toggle.textContent = open ? '사업자·운영 정보 닫기' : '사업자·운영 정보 보기';
       });
     }
   </script>
 </body>
 </html>
+
