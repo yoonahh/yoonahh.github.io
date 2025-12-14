@@ -196,17 +196,23 @@
           <h2>안심하고 담고, 다 받는 배달</h2>
         </div>
         <div class="trust-grid">
-          <div class="trust-card">
-            <p class="title"><span class="trust-icon">🧊</span>따뜻함·바삭함 유지</p>
-            <p class="body">보온·보랭 패키징으로 메뉴별 최적 온도 유지. 튀김은 통풍 패키지, 어묵은 보온팩으로 전달합니다.</p>
+          <div class="trust-card" data-trust>
+            <p class="title"><span class="trust-icon">🧊</span>따뜻함·바삭함 유지 <span class="click-hint">👇</span></p>
+            <div class="trust-body">
+              <p class="body">보온·보랭 패키징으로 메뉴별 최적 온도 유지. 튀김은 통풍 패키지, 어묵은 보온팩으로 전달합니다.</p>
+            </div>
           </div>
-          <div class="trust-card">
-            <p class="title"><span class="trust-icon">💳</span>결제부터 안전하게</p>
-            <p class="body">땡겨요 Pay, 카드 간편결제 지원. 주문 취소·환불 프로세스도 앱에서 즉시 처리됩니다.</p>
+          <div class="trust-card" data-trust>
+            <p class="title"><span class="trust-icon">💳</span>결제부터 안전하게 <span class="click-hint">👇</span></p>
+            <div class="trust-body">
+              <p class="body">땡겨요 Pay, 카드 간편결제 지원. 주문 취소·환불 프로세스도 앱에서 즉시 처리됩니다.</p>
+            </div>
           </div>
-          <div class="trust-card">
-            <p class="title"><span class="trust-icon">🤝</span>시장 사장님 동반 성장</p>
-            <p class="body">메뉴 사진·가격 관리, 포장 가이드, 데이터 리포트, 주문 건별 즉시 정산까지 지원해 시장과 함께 성장합니다.</p>
+          <div class="trust-card" data-trust>
+            <p class="title"><span class="trust-icon">🤝</span>시장 사장님 동반 성장 <span class="click-hint">👇</span></p>
+            <div class="trust-body">
+              <p class="body">메뉴 사진·가격 관리, 포장 가이드, 데이터 리포트, 주문 건별 즉시 정산까지 지원해 시장과 함께 성장합니다.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -244,6 +250,16 @@
         toggle.textContent = open ? '사업자·운영 정보 닫기' : '사업자·운영 정보 보기';
       });
     }
+
+    const trustCards = document.querySelectorAll('[data-trust]');
+    trustCards.forEach(card => {
+      card.addEventListener('click', () => {
+        trustCards.forEach(c => {
+          if (c !== card) c.classList.remove('open');
+        });
+        card.classList.toggle('open');
+      });
+    });
   </script>
 </body>
 </html>

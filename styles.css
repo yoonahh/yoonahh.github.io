@@ -525,11 +525,18 @@ button {
   background: var(--card);
   border: 1px solid var(--line);
   box-shadow: 0 12px 26px rgba(15, 23, 42, 0.08);
+  cursor: pointer;
 }
 
 .trust-card .title {
   margin: 0 0 8px;
   font-weight: 800;
+}
+
+.click-hint {
+  margin-left: 6px;
+  font-size: 14px;
+  color: var(--primary);
 }
 
 .trust-icon {
@@ -549,6 +556,15 @@ button {
   margin: 0;
   color: rgba(15, 23, 42, 0.7);
   line-height: 1.5;
+}
+
+.trust-body {
+  display: none;
+}
+
+.trust-card.open .trust-body {
+  display: block;
+  margin-top: 6px;
 }
 
 .footer {
@@ -658,17 +674,21 @@ button {
 
 @media (max-width: 960px) {
   .topbar {
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 8px;
   }
 
   .nav {
+    order: 2;
+    width: 100%;
     justify-content: flex-start;
     flex-wrap: wrap;
   }
 
   .actions {
+    order: 3;
+    width: 100%;
     justify-content: flex-start;
   }
 
