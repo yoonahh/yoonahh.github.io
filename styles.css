@@ -237,7 +237,9 @@ button {
 }
 
 .hero .badge {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   padding: 10px 16px;
   border-radius: 14px;
   background: rgba(0, 81, 199, 0.1);
@@ -246,6 +248,33 @@ button {
   font-size: 13px;
 }
 
+.badge-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--primary);
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.badge-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: none;
+  background: transparent;
+}
+
+.badge-icon-right {
+  margin-left: auto;
+}
+
+.badge-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
 .lede {
   font-size: 16px;
   color: rgba(15, 23, 42, 0.75);
@@ -423,6 +452,7 @@ button {
 .benefit-card ul {
   margin: 0 0 16px 0;
   padding-left: 18px;
+  list-style: disc;
   color: rgba(15, 23, 42, 0.75);
   line-height: 1.6;
 }
@@ -440,6 +470,7 @@ button {
   display: grid;
   gap: 12px;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  position: relative;
 }
 
 .route {
@@ -448,6 +479,14 @@ button {
   border: 1px solid var(--line);
   background: #fff;
   box-shadow: 0 12px 26px rgba(15, 23, 42, 0.08);
+  position: relative;
+}
+
+.route-flow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  position: relative;
 }
 
 .route .title {
@@ -623,14 +662,19 @@ button {
 
 @media (max-width: 960px) {
   .topbar {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
     justify-items: start;
-    gap: 10px;
+    gap: 8px;
   }
 
   .nav {
     justify-content: flex-start;
     flex-wrap: wrap;
+  }
+
+  .actions {
+    justify-content: flex-end;
   }
 
   .hero {
@@ -654,7 +698,10 @@ button {
   }
 
   .hero-stats {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    display: flex;
+    gap: 12px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
   }
 
   .floating-card {
